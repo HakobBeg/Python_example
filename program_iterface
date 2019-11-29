@@ -1,0 +1,43 @@
+python app.py
+
+Welcome, to cool store management program. v0.1
+
+Actions
+-------
+a - Add/update item
+# u - Update item
+f - Search for item
+s - Register a Sale
+x - Exit
+
+Enter command: I z
+Wrong command.
+Enter command: I a
+
+Input new item attributes:
+
+ID: 421421
+Name: Potatoes
+Count: 123
+Price: 250
+
+Item successfully registered.
+
+Enter command: I f
+Input item name: Potat
+
+Found 3:
+-----------------------------------------------------
+ID          |Name          |Price           |Count  |
+-----------------------------------------------------
+123         |Apple         |1230            |121    |
+125         |Apple         |1230            |123    |
+-----------------------------------------------------
+
+Enter command: s
+
+Input sale information:
+Product ID: 123
+Count: 2
+
+Sale order registered successfully
